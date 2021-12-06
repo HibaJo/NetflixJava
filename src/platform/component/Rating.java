@@ -3,13 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Main;
+package platform.component;
 
 /**
  *
  * @author oessf
  */
-public enum Language {
-    ENGLISH, FRENCH, GERMAN, ITALIEN, SPANISH, POTUGUESE, ARABIC, KOREAN, TURKISH, HEBREW, CHINESE;
+public enum Rating {
+    THUMBS_UP, THUMBS_DOWN;
 }
-

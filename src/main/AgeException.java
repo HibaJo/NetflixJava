@@ -3,13 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Main;
+package main;
 
 /**
  *
  * @author oessf
  */
-public enum Genres {
-    ACTION, ANIME, FAMILY, CLASSIC, COMEDIES, DRAMAS, HORROR, ROMANTIC, 
-    SCIENCEFICTION, SPORTS, TVSHOWS;
+public class AgeException extends Exception{
+    public AgeException(String str) {
+        super(str);
+    }
 }
