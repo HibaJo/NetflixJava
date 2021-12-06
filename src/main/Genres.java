@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package authentication.finance;
+package main;
 
 /**
  *
  * @author oessf
  */
-public enum Type {
-    VISA, MASTERCARD, AMERICANEXPRESS;
+public enum Genres {
+    ACTION, ANIME, FAMILY, CLASSIC, COMEDIES, DRAMAS, HORROR, ROMANTIC, 
+    SCIENCEFICTION, SPORTS, TVSHOWS;
 }
